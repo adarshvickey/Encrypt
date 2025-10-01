@@ -1,0 +1,104 @@
+/* --- Basic Setup --- */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light grey text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* --- The Main Card --- */
+.card {
+    background-color: #1e1e1e; /* Slightly lighter dark shade */
+    border-radius: 15px;
+    padding: 30px 40px;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #333;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+/* --- Header Section (Image & Name) --- */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Makes the image circular */
+    border: 4px solid #00aaff; /* A nice blue accent color */
+    object-fit: cover;
+}
+
+h1 {
+    margin: 15px 0 5px 0;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.subtitle {
+    margin: 0;
+    font-size: 1.1em;
+    color: #00aaff; /* Blue accent color */
+}
+
+/* --- Main Content Sections --- */
+h2 {
+    border-bottom: 2px solid #00aaff;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.about p {
+    line-height: 1.6;
+}
+
+/* --- Details List --- */
+.details ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    display: inline-block;
+}
+
+.details li {
+    margin-bottom: 10px;
+}
+
+.details strong {
+    color: #00aaff;
+}
+
+/* --- Footer --- */
+footer {
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #777;
+}
+/* --- Enter World Button --- */
+.enter-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 30px;
+    border: 2px solid #00aaff; /* Uses your theme's blue accent color */
+    background-color: #00aaff; /* Same blue for the background */
+    color: #1e1e1e; /* Dark text to contrast with the blue */
+    text-decoration: none;
+    border-radius: 50px; /* Creates a fully rounded 'pill' shape */
+    font-weight: 600;
+    font-size: 1em;
+    transition: background-color 0.3s, color 0.3s; /* Smooth hover animation */
+}
+
+/* --- Button Hover Effect --- */
+.enter-button:hover {
+    background-color: transparent; /* Makes background see-through on hover */
+    color: #00aaff; /* Text becomes blue */
+}
+
+
